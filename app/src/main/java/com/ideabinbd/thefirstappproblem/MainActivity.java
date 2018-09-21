@@ -13,12 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
         textOutput= findViewById(R.id.textView);
         textInput= findViewById(R.id.editText);
         btnGo= findViewById(R.id.button);
 
-        setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
     }
 }
